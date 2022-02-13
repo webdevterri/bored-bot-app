@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: gray;
+  color: white;
+  font-family: "VT323", monospace;
+  text-align: center;
+}
+
+.fun {
+  background-image: linear-gradient(to right, #3767dd, #90332a);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
+/* BUTTON */
+/* put drop shadow underneath */
+.btn-suggest {
+  background-image: linear-gradient(to bottom, #d93434, #ffa200);
+  color: white;
+  border: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-family: "VT323", monospace;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 5px #1c1c1c;
+  cursor: pointer;
+}
+
+.btn-suggest::hover,
+.btn-suggest::focus {
+  background-image: linear-gradient(to bottom, #ffa200, #d93434);
+}
+
+/* add dropshadow underneath */
+.suggestion {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumvioletred;
+  height: 180px;
+  width: 350px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #1c1c1c;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.activity-suggestion {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+}
