@@ -46,8 +46,8 @@ h1 {
   cursor: pointer;
 }
 
-.btn-suggest::hover,
-.btn-suggest::focus {
+.btn-suggest:hover,
+.btn-suggest:focus {
   background-image: linear-gradient(to bottom, #ffa200, #d93434);
 }
 
